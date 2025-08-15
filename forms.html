@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Web Development</h1>
+    <div>
+        Some Programming Languages For Web
+        <ul>
+            <li>Html</li>
+            <li>JavaScript</li>
+            <li>CSS</li>
+        </ul>
+    </div>
+    <h2>Personal details</h2>
+    <div>
+        <form>
+            <label for="name">Name: </label>
+            <input name="name" type="text" placeholder="Enter Your Name">
+            <br>
+            <label for="gender">Gender: </label>
+            <label for="male">Male</label>
+            <input name="gender" type="radio">
+            <label for="female">Female</label>
+            <input name="gender" type="radio"><br>
+            <label for=country>Select your country: </label>
+            <input name="country" list="countries" placeholder="Select Country">
+            <datalist id="countries">
+                <option value="Pakistan">
+                <option value="India">
+                <option value="Turkey">
+                <option value="USA">
+            </datalist>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+</html>
